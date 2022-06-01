@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test task</title>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="text__container">
+            <p class="text">Ожидание получения информации...</p>
+        </div>
+        <div class="form">
+            <label>Введите строку (только цифры, через запятую, минимальное количество цифр - 2)</label>
+            <input type="text" name="text" class="data__input" id="input" onkeyup="this.value = this.value.replace (/[^0-9-,]/g, '')">
+            <a class="btn">Отправить</a>
+        </div>
+    </div>
+</body>
+
+</html>
