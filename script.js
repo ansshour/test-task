@@ -28,7 +28,6 @@ const script = () => {
                 return true
             }
         })
-        console.log(str)
         if (str.length === 0) {
             return false
         }
